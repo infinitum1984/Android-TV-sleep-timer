@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="MainActivity" android:background="#313435">
+    <Button
+            android:text="30 min \n timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/min_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:textSize="45sp"
+            android:background="@drawable/button_timer_background"
+            android:textColor="#FFFFFF" android:padding="15dp" android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <Button
+            android:text="60 min \n  timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/min_60"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="45sp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_timer_background"
+
+            android:textColor="#FFFFFF" android:padding="15dp" android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <Button
+            android:text="test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/test"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:textSize="40sp"/>
+    <Button
+            android:text="Disable Admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/disable_admin"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp" android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="#F0F0F0"
+            android:background="#00796B" android:padding="10dp" android:layout_marginBottom="10dp"
+    />
+
+</RelativeLayout>
